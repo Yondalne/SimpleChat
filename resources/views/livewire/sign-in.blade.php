@@ -92,7 +92,7 @@
             </div>
 
             <div class="w-1/2 text-right">
-                <a href="#" wire:click='$emitUp("changeRoute", "/signup")' class="text-gray-50">
+                <a href="/signup" class="text-gray-50">
                     <small>Create new account</small>
                 </a>
             </div>

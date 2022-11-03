@@ -4,10 +4,10 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class SignIn extends Component
+class Home extends Component
 {
     public function render()
     {
-        return view('livewire.sign-in')->layout("layouts.sign");
+        return view('livewire.home')->layout("layouts.main");
     }
 }

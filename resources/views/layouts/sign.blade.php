@@ -33,10 +33,16 @@
                 <div class="absolute top-0 w-full h-full bg-gray-900"
                         style="background-image: url({{asset("assets/img/register_bg_2.png")}}); background-size: 100%; background-repeat: no-repeat;">
                 </div>
-                @auth
-                    @livewire("navbar")
-                @endauth
-                {{$slot}}
+
+                <div class="container mx-auto px-4 h-full">
+                    <div class="flex content-center items-center justify-center h-full">
+                        <div class="w-full lg:w-4/12 px-4">
+                            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 border-0">
+                                {{$slot}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
